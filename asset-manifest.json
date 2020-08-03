@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/samuraijs.com/static/css/main.cbe50a14.chunk.css",
-    "main.js": "/samuraijs.com/static/js/main.53f149e5.chunk.js",
-    "runtime-main.js": "/samuraijs.com/static/js/runtime-main.f0cc5e26.js",
-    "static/css/2.7bc345c2.chunk.css": "/samuraijs.com/static/css/2.7bc345c2.chunk.css",
-    "static/js/2.9e5d02ff.chunk.js": "/samuraijs.com/static/js/2.9e5d02ff.chunk.js",
-    "index.html": "/samuraijs.com/index.html",
-    "precache-manifest.b18ed748601abb023552bdfaed0d74d9.js": "/samuraijs.com/precache-manifest.b18ed748601abb023552bdfaed0d74d9.js",
-    "service-worker.js": "/samuraijs.com/service-worker.js",
-    "static/js/2.9e5d02ff.chunk.js.LICENSE.txt": "/samuraijs.com/static/js/2.9e5d02ff.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/samuraijs.com/static/media/Raleway-Regular.75b4247f.ttf"
+    "main.css": "/samuraijs/static/css/main.7ca0c45a.chunk.css",
+    "main.js": "/samuraijs/static/js/main.84240748.chunk.js",
+    "runtime-main.js": "/samuraijs/static/js/runtime-main.210b477b.js",
+    "static/css/2.7bc345c2.chunk.css": "/samuraijs/static/css/2.7bc345c2.chunk.css",
+    "static/js/2.9e5d02ff.chunk.js": "/samuraijs/static/js/2.9e5d02ff.chunk.js",
+    "index.html": "/samuraijs/index.html",
+    "precache-manifest.0122fec8d3e46b308d5156938b5cbb45.js": "/samuraijs/precache-manifest.0122fec8d3e46b308d5156938b5cbb45.js",
+    "service-worker.js": "/samuraijs/service-worker.js",
+    "static/js/2.9e5d02ff.chunk.js.LICENSE.txt": "/samuraijs/static/js/2.9e5d02ff.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/samuraijs/static/media/Raleway-Regular.75b4247f.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0cc5e26.js",
+    "static/js/runtime-main.210b477b.js",
     "static/css/2.7bc345c2.chunk.css",
     "static/js/2.9e5d02ff.chunk.js",
-    "static/css/main.cbe50a14.chunk.css",
-    "static/js/main.53f149e5.chunk.js"
+    "static/css/main.7ca0c45a.chunk.css",
+    "static/js/main.84240748.chunk.js"
   ]
 }

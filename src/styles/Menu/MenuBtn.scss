@@ -1,0 +1,10 @@
+.MenuBtn {
+  font-size: 1.35rem;
+  color: white;
+  transition: all .3s;
+
+  &:hover {
+    color: #cbc8c8;
+    text-decoration: none;
+  }
+}

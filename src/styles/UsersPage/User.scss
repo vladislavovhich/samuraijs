@@ -1,0 +1,42 @@
+.User {
+  &:not(:first-child) {
+    margin-top: 0.85rem;
+  }
+
+  .User__imgAvatar {
+    width: 5rem;
+    height: 5rem;
+    border: 0.01rem solid gray;
+    border-radius: 0.3rem;
+    display: block;
+  }
+
+  .User__info {
+    .User__name {
+      a {
+        color: #575555;
+        font-size: 1.2rem;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all .3s;
+        font-family: OpenSans;
+
+        &:hover {
+          color: #7b7878;
+        }
+      }
+    }
+
+    .User__status {
+      color: #575555;
+      font-size: 1rem;
+      font-weight: bold;
+      font-family: Raleway;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow-y: hidden;
+      word-break: break-word;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.MenuNavLink {
+  color: #878484;
+  text-decoration: none;
+  width: 10rem;
+  font-family: OpenSans;
+  transition: all .3s;
+  padding: 0.3rem 0.5rem;
+  font-size: 1rem;
+
+  &:hover {
+    color: #5e5b5b;
+    text-decoration: none;
+  }
+
+  &.active {
+    border: 1px solid #5e5b5b;
+    border-radius: 0.5rem;
+    background-color: #5e5b5b;
+    color: white;
+  }
+
+  div {
+    margin-left: 0.35rem;
+    text-align: left;
+  }
+
+  svg {
+    font-size: 1.1rem;
+  }
+}

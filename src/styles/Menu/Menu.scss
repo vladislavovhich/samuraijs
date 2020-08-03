@@ -1,0 +1,72 @@
+.Menu {
+  top: 0;
+  position: absolute;
+  height: 100vh;
+  border: 0.01px solid #aca8a8;
+  background-color: white;
+  border-bottom-left-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
+  padding: 1rem;
+  overflow: auto;
+  z-index: 1;
+
+  .PrealoderBar {
+    height: 3rem;
+  }
+
+  .hr {
+    height: 1px;
+    border: 0.01rem solid #878484;
+    width: 100%;
+  }
+
+  .MenuHideBtn {
+    color: #878484;
+    text-decoration: none;
+    width: 10rem;
+    font-family: OpenSans;
+    transition: all .3s;
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+    left: 100%;
+
+    &:hover {
+      color: #5e5b5b;
+      text-decoration: none;
+    }
+
+    div {
+      margin-left: 0.2rem;
+      text-align: left;
+    }
+
+    svg {
+      font-size: 1.1rem;
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    li:not(:first-child) {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.MenuVisible {
+  animation: slideInRight;
+  animation-duration: .5s;
+  right: 0;
+}
+
+.MenuHide {
+  left: 100%;
+}
+
+.MenuHidden {
+  left: 100%;
+  animation: slideInLeft;
+  animation-duration: .5s;
+  right: 0;
+}

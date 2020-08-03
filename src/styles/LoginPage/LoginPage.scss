@@ -1,0 +1,87 @@
+.LoginPage {
+  .SignUp {
+    color: #575555;
+    font-family: OpenSans;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .GetNewCaptcha {
+    color: #575555;
+    font-family: OpenSans;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .3s;
+    background: none;
+    border: none;
+    outline: none;
+  }
+
+  .GetNewCaptchaDisabled {
+    opacity: 0.75;
+    z-index: -1;
+  }
+
+  .CaptchaBlock {
+    .Captcha {
+      width: 13.5rem;
+      height: 5rem;
+      border: 0.01rem solid #575555;
+      border-radius: 0.5rem;
+      overflow: hidden;
+
+      img {
+        width: 10rem;
+      }
+    }
+  }
+
+  .Form {
+    border: 0.1rem solid #575555;
+    width: 18rem;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .Input {
+    width: 13.5rem;
+    height: 2.2rem;
+    border: 0.01rem solid #575555;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+    font-size: 0.95rem;
+    outline: none;
+    font-family: OpenSans;
+    color: #575555;
+  }
+
+  .ErrorField {
+    text-align: center;
+    font-weight: bold;
+    color: #ec3b3b;
+  }
+
+  .LoginHead {
+    color:#575555;
+    font-weight: bold;
+    font-size: 1.35rem;
+  }
+
+  .LoginBtn {
+    width: 6.5rem;
+    height: 2.2rem;
+    border: 0.01rem solid #575555;
+    background-color: #575555;
+    color: white;
+    font-family: OpenSans;
+    border-radius: 0.5rem;
+    outline: none;
+  }
+}

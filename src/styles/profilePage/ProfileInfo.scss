@@ -1,0 +1,71 @@
+.Profile__info {
+  .hr {
+    width: 100%;
+    border: 1px solid #575555;
+  }
+
+  .Profile__avatar {
+    .Profile__img {
+      width: 8rem;
+      height: 8rem;
+      border: 0.01rem solid #575555;
+      border-radius: 0.3rem;
+    }
+  }
+
+  .Profile__textInfo {
+    height: 8rem;
+
+    .Profile__name {
+      font-family: OpenSans;
+      font-size: 1.45rem;
+      font-weight: bold;
+      color: #575555;
+    }
+
+    .Profile__status {
+      p {
+        color: #575555;
+        font-size: 1rem;
+        font-family: OpenSans;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow-y: hidden;
+        word-break: break-word;
+      }
+    }
+  }
+
+  .PrealoderName {
+    width: 10rem;
+    height: 1.75rem;
+    border: 0.01rem solid #e8e5e5;
+    background-color: #e8e5e5;
+    border-radius: 0.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .Profile__additionInfo {
+    .Profile__lookingAjob, .Profile__contacts, .Profile__lookingJobDescription, .Profile__aboutUser {
+      color: #575555;
+      font-family: OpenSans;
+
+      .PropName {
+        font-weight: bolder;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+      }
+
+      .PropVal {
+        margin-left: 0.5rem;
+        border: 0.01rem solid #e8e5e5;
+        background-color: #e8e5e5;
+        border-radius: 0.5rem;
+        padding: 0 0.5rem;
+        word-break: break-word;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.FollowBtn {
+  width: 5rem;
+  height: 2rem;
+  font-size: 0.9rem;
+  color: white;
+  background-color: #575555;
+  border: 0.01rem solid #575555;
+  border-radius: 0.3rem;
+  outline: none;
+  font-family: OpenSans;
+  transition: all .3s;
+
+  &:active {
+    background-color: #7b7777;
+  }
+}

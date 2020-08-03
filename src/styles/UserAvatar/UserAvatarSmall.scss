@@ -1,0 +1,14 @@
+.UserAvatarSmall {
+  width: 5rem;
+  height: 5rem;
+  border: 0.01rem solid #575555;
+  overflow: hidden;
+  border-radius: 0.3rem;
+  background-color: #e8e5e5;
+
+  svg {
+    font-size: 3.5rem;
+    margin-bottom: -0.3rem;
+    color: #575555;
+  }
+}

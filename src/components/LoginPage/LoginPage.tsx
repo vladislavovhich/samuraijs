@@ -55,7 +55,7 @@ const LoginPage: React.FC<Props> = (props) => {
         },
     });
     const captchaField = (
-        <div className="mt-2 d-flex align-items-center">
+        <div className="mt-2 d-flex flex-column justify-content-center align-items-center">
             <FormikField
                 name="captcha"
                 placeholder="Каптча…"
@@ -88,7 +88,7 @@ const LoginPage: React.FC<Props> = (props) => {
                     </div>
                 )}
 
-                <div className="mt-2 d-flex align-items-center">
+                <div className="mt-2 d-flex flex-column justify-content-center align-items-center">
                     <FormikField
                         name="email"
                         placeholder="Почта…"
@@ -101,7 +101,7 @@ const LoginPage: React.FC<Props> = (props) => {
                     />
                 </div>
 
-                <div className="mt-2 d-flex align-items-center">
+                <div className="mt-2 d-flex flex-column justify-content-center align-items-center">
                     <FormikField
                         name="password"
                         placeholder="Пароль…"

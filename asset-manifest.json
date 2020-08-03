@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/samuraijs/static/css/main.7ca0c45a.chunk.css",
-    "main.js": "/samuraijs/static/js/main.84240748.chunk.js",
+    "main.js": "/samuraijs/static/js/main.70af05b6.chunk.js",
     "runtime-main.js": "/samuraijs/static/js/runtime-main.210b477b.js",
     "static/css/2.7bc345c2.chunk.css": "/samuraijs/static/css/2.7bc345c2.chunk.css",
     "static/js/2.9e5d02ff.chunk.js": "/samuraijs/static/js/2.9e5d02ff.chunk.js",
     "index.html": "/samuraijs/index.html",
-    "precache-manifest.0122fec8d3e46b308d5156938b5cbb45.js": "/samuraijs/precache-manifest.0122fec8d3e46b308d5156938b5cbb45.js",
+    "precache-manifest.161e9f9256193a6c359021b69001d72e.js": "/samuraijs/precache-manifest.161e9f9256193a6c359021b69001d72e.js",
     "service-worker.js": "/samuraijs/service-worker.js",
     "static/js/2.9e5d02ff.chunk.js.LICENSE.txt": "/samuraijs/static/js/2.9e5d02ff.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/samuraijs/static/media/Raleway-Regular.75b4247f.ttf"
@@ -16,6 +16,6 @@
     "static/css/2.7bc345c2.chunk.css",
     "static/js/2.9e5d02ff.chunk.js",
     "static/css/main.7ca0c45a.chunk.css",
-    "static/js/main.84240748.chunk.js"
+    "static/js/main.70af05b6.chunk.js"
   ]
 }

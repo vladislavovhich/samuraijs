@@ -150,7 +150,6 @@ export const thunks = {
             dispatch(actions.setProfile(profile));
         } catch (e) {
             alert("Не удалось получить профиль!");
-            dispatch(actions.toggleGettingProfile(false));
         }
 
         dispatch(actions.toggleGettingProfile(false));

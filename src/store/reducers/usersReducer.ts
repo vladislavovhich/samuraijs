@@ -147,7 +147,6 @@ export const thunks = {
             dispatch(actions.setUsers(items));
         } catch (e) {
             alert("Не удалось получить пользователей :(");
-            dispatch(actions.toggleGettingUsers(false));
         }
 
         dispatch(actions.toggleGettingUsers(false));

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import "../../styles/Menu/Menu.scss";
 import MenuNavLink from "./MenuNavLink";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -25,10 +25,18 @@ const Menu: React.FC<PropsType> = (props) => {
     const onClickLogout = () => {
         props.logout();
     }
+    const currentRef = useRef<HTMLDivElement>(null);
 
     return (
         <div className="row">
-            <div className={`Menu ${props.classNameProp} col-lg-2 col-md-4 col-sm-5 col-xs-6 col-8`} >
+            <div ref={currentRef} className={`Menu ${props.classNameProp} col-lg-2 col-md-4 col-sm-5 col-xs-6 col-8`} onAnimationEnd={() => {
+                if (currentRef.current) {
+                    if (props.classNameProp === "MenuHidden") {
+                        currentRef.current.classList.remove("MenuHidden");
+                        currentRef.current.classList.add("MenuHide");
+                    }
+                }
+            }}>
                 <ul className="d-flex flex-column align-items-center w-100">
                     <li>
                         <a

@@ -58,15 +58,17 @@
   animation: slideInRight;
   animation-duration: .5s;
   right: 0;
+  display: block;
 }
 
 .MenuHide {
   left: 100%;
+  display: none;
 }
 
 .MenuHidden {
   left: 100%;
   animation: slideInLeft;
   animation-duration: .5s;
-  right: 0;
+  display: block;
 }

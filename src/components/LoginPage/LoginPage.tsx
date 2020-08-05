@@ -122,6 +122,7 @@ const LoginPage: React.FC<Props> = (props) => {
                             captchaUrl={props.captchaUrl}
                             captchaField={captchaField}
                             isGettingCaptchaImg={props.isGettingCaptchaImg}
+                            isAuthorizing={props.isAuthorizing}
 
 
                             getCaptchaUrl={props.getCaptchaUrl}

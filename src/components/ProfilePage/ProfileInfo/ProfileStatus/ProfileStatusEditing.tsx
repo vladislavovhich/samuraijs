@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import "../../styles/profilePage/ProfileStatusEditing.scss";
+import "../../../../styles/profilePage/ProfileStatusEditing.scss";
 
 type PropsType = {
     value:string

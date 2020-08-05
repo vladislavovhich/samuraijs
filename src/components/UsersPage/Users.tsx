@@ -1,6 +1,6 @@
 import React from "react";
 import {UserType} from "../../store/types";
-import User from "./User";
+import User from "./User/User";
 
 type PropsType = {
     users:UserType[]

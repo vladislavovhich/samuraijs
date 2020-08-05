@@ -8,10 +8,11 @@ type PropsType = {
     captchaField:React.ReactElement
     isGettingCaptchaImg:boolean
     toggleGettingCaptchaImg:(value:boolean) => void
+    isAuthorizing:boolean
 };
 
 const CaptchaBlock: React.FC<PropsType> = (props) => {
-    const extraClass = (props.isVisiblePreloader || props.isGettingCaptchaImg) ? "GetNewCaptchaDisabled" : "";
+    const extraClass = (props.isVisiblePreloader || props.isGettingCaptchaImg || props.isAuthorizing) ? "GetNewCaptchaDisabled" : "";
 
     const removeLoadingImg = () => {
         props.toggleGettingCaptchaImg(false);

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import HorizontalGraySmallPreloader from "../Common/HorizontalGraySmallPreloader";
+import HorizontalGraySmallPreloader from "../../../Common/HorizontalGraySmallPreloader";
 import ProfileStatusEditing from "./ProfileStatusEditing";
 
 type PropsType = {

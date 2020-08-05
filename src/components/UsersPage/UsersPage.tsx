@@ -3,7 +3,7 @@ import {UserType} from "../../store/types";
 import PagePreloader from "../Common/PagePreloader";
 import Paginator from "../Common/Paginator/Paginator";
 import {actions} from "../../store/reducers/usersReducer";
-import User from "./User";
+import User from "./User/User";
 import Users from "./Users";
 import {Props} from "./UsersContainer";
 

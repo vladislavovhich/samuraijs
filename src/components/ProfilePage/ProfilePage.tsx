@@ -9,7 +9,7 @@ import FollowedLoading from "./FollowedLoading";
 import FollowBtn from "../UsersPage/FollowBtn";
 import {Props} from "./ProfileContainer";
 import LoadingProfile from "./LoadingProfile";
-import ProfileInfo from "./ProfileInfo";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 type PropsType = Props & {
     isYourPage:boolean

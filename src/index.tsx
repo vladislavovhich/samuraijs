@@ -7,8 +7,19 @@ import {HashRouter} from "react-router-dom"
 import {Provider} from "react-redux"
 import App from "./components/App"
 import {library} from '@fortawesome/fontawesome-svg-core'
-import {faCog,faUserFriends, faUser, faUsers, faBars, faTimes, faSignInAlt, faSignOutAlt,
-faAngleLeft, faDownload,faAngleRight} from "@fortawesome/free-solid-svg-icons"
+import {
+    faAngleLeft,
+    faAngleRight,
+    faBars,
+    faCog,
+    faDownload,
+    faSignInAlt,
+    faSignOutAlt,
+    faTimes,
+    faUser,
+    faUserFriends,
+    faUsers
+} from "@fortawesome/free-solid-svg-icons"
 import "animate.css/animate.min.css"
 
 library.add(faCog,faDownload, faUserFriends, faUser, faUsers, faBars, faTimes, faSignInAlt, faSignOutAlt, faAngleLeft, faAngleRight)

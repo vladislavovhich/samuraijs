@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "660fde4d998f06b4ab12af2e8fdbad55",
+    "revision": "11bba3e7aa9e017a33db3ba0343356d8",
     "url": "/samuraijs/index.html"
   },
   {
-    "revision": "eb17490c12e71943881c",
-    "url": "/samuraijs/static/css/2.7bc345c2.chunk.css"
+    "revision": "48b6eb9aa1972c4fd5a1",
+    "url": "/samuraijs/static/css/2.8c063016.chunk.css"
   },
   {
-    "revision": "eb3674046a6d8325f485",
-    "url": "/samuraijs/static/css/main.e904bd91.chunk.css"
+    "revision": "1e1647183a14162a140d",
+    "url": "/samuraijs/static/css/main.ce7d42ff.chunk.css"
   },
   {
-    "revision": "eb17490c12e71943881c",
+    "revision": "48b6eb9aa1972c4fd5a1",
     "url": "/samuraijs/static/js/2.1aec5c89.chunk.js"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/samuraijs/static/js/2.1aec5c89.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eb3674046a6d8325f485",
-    "url": "/samuraijs/static/js/main.2c39ef71.chunk.js"
+    "revision": "1e1647183a14162a140d",
+    "url": "/samuraijs/static/js/main.835e1aa7.chunk.js"
   },
   {
     "revision": "dd095b834f93dab0c433",

@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/samuraijs/static/css/main.e904bd91.chunk.css",
-    "main.js": "/samuraijs/static/js/main.2c39ef71.chunk.js",
+    "main.css": "/samuraijs/static/css/main.ce7d42ff.chunk.css",
+    "main.js": "/samuraijs/static/js/main.835e1aa7.chunk.js",
     "runtime-main.js": "/samuraijs/static/js/runtime-main.210b477b.js",
-    "static/css/2.7bc345c2.chunk.css": "/samuraijs/static/css/2.7bc345c2.chunk.css",
+    "static/css/2.8c063016.chunk.css": "/samuraijs/static/css/2.8c063016.chunk.css",
     "static/js/2.1aec5c89.chunk.js": "/samuraijs/static/js/2.1aec5c89.chunk.js",
     "index.html": "/samuraijs/index.html",
-    "precache-manifest.b6f0dc48317861172e75e2ad10260f57.js": "/samuraijs/precache-manifest.b6f0dc48317861172e75e2ad10260f57.js",
+    "precache-manifest.7f8a0eb093223a77aea441408e72ea4c.js": "/samuraijs/precache-manifest.7f8a0eb093223a77aea441408e72ea4c.js",
     "service-worker.js": "/samuraijs/service-worker.js",
     "static/js/2.1aec5c89.chunk.js.LICENSE.txt": "/samuraijs/static/js/2.1aec5c89.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/samuraijs/static/media/Raleway-Regular.75b4247f.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.210b477b.js",
-    "static/css/2.7bc345c2.chunk.css",
+    "static/css/2.8c063016.chunk.css",
     "static/js/2.1aec5c89.chunk.js",
-    "static/css/main.e904bd91.chunk.css",
-    "static/js/main.2c39ef71.chunk.js"
+    "static/css/main.ce7d42ff.chunk.css",
+    "static/js/main.835e1aa7.chunk.js"
   ]
 }
